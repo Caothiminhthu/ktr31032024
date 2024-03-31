@@ -1,0 +1,87 @@
+ .bai1-container{
+    width: 400px;
+    height: fit-content;
+    background: rgb(2,0,36);
+    background: linear-gradient(115deg, rgba(2,0,36,1) 0%, rgba(55,170,190,1) 0%, rgba(173,145,84,1) 100%, rgba(82,117,88,0.9189189189189189) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    border-radius: 10px;
+}
+.bai1-form i {
+    position: absolute;
+}
+.bai1-form >i{
+    padding: 17px;
+    min-width: 40px;
+}
+.bai1-input{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.bai1-2button{
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+}
+.bai1-button{
+margin: 10px;
+}
+#clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#time {
+    display: flex;
+}
+
+#time span{
+  margin: 0 5px;
+}
+#meridiem{
+  margin-left: 10px;
+}
+.container {
+            width: 900px;
+            margin: 0 auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+.input-group {
+            margin-bottom: 20px;
+            margin-left: 10px ;
+        }
+
+ .input-group label {
+            display: inline-block;
+            width: 80px;
+        }
+ .input-group input {
+            width: 150px;
+            padding: 10px;
+        }
+ .btn {
+            background-color: pink;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }

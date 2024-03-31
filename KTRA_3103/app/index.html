@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+   <link rel="stylesheet" href="/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Góp ý sản phẩm</title>
+</head>
+<body>
+  
+  <h1>BÀI 1:</h1>
+<div class="bai1">
+    <div class="bai1-container">
+        <h3 class="heading">Login</h3>
+        <p>Login here using your username and password</p>
+        <form action="" class="bai1-form">
+            <i class="fa fa-user icon"></i>
+            <input type="text" id="bai1-username" class="bai1-input"><br>
+            <i class="fa fa-instagram icon"></i>
+            <input type="password" id="bai1-password"  class="bai1-input">
+        </form>
+        <div class="bai1-button">
+            <span class="bai1-2button">
+                Forgot 
+            </span>
+            <span class="bai1-2button">
+                Sign up
+            </span>
+        </div>
+    </div>
+</div>
+ <script src="index.js"></script>
+  
+  
+  <h1>BÀI 2:</h1>
+   <div id="clock">
+    <div id="time">
+      <span id="hours"></span>
+      <span> : </span>
+      <span id="minutes"></span>
+      <span> : </span>
+      <span id="second"></span>
+    </div>
+    </div>
+  
+  <h1>
+    BÀI 3:
+  </h1>
+  <div class="container">
+     <h1>Góp ý sản phẩm</h1>
+    <form action="index.php" method="post">
+      <div class="input-group">
+        <label for="hoten">Họ tên:</label>
+        <input type="text" id="hoten" name="hoten" required>
+     </div>
+       <div class="input-group">
+        <label for="noidung">Nội dung góp ý:</label>
+       <textarea id="noidung" name="noidung" rows="5" cols="50" required></textarea>
+      </div>
+       <button class="btn" type="submit">Gửi góp ý </button> 
+    </form>
+    <script>
+        const ngayGopY = new Date();
+        document.getElementById("ngaygopy").value = ngayGopY.toLocaleDateString();
+    </script>
+  </div>
+</body>
+</html>
